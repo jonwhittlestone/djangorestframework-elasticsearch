@@ -1,6 +1,5 @@
-FROM python:3.6
+FROM python:3.6-alpine
 ENV PYTHONUNBUFFERED 1
-RUN apt-get update && apt-get install -y gettext
 RUN mkdir /code
 WORKDIR /code
 ADD requirements.txt /code/
