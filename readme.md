@@ -24,7 +24,7 @@ https://django-elasticsearch-dsl-drf.readthedocs.io/en/0.15/advanced_usage_examp
 
    `http://localhost:8000/admin/articles/article/add/`
 
-5. Create the search inex, and populate the article data
+5. Create the search index, and populate the article data
 
    `docker exec -it django_elastic_drf_example_django python manage.py search_index --create`
 
